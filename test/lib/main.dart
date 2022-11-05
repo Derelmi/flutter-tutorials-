@@ -68,7 +68,7 @@ class _MyAppState extends State<MyApp> {
                     ],
                   ),
                 )
-              : Image.asset('images/im1.png'),
+              : Image.asset('images/im2.jpg'),
   // Image.network('src') is used when one needs to get the image from the internet, src refers to the source of the image which is similar to the HTML5 image tag
         ),
         bottomNavigationBar: BottomNavigationBar(
