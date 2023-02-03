@@ -4,13 +4,13 @@ import 'package:flutter/material.dart';
 
 //  Remember to use the Ctrl + Space incase you are out of options or ideas on what to do next
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 // The void main just tells us the app which is being run
 class MyApp extends StatefulWidget {
   // StatelessWidget is used to create a page(1) on app, StatefulWidget for two or more pages on an App
-  MyApp({super.key});
+  const MyApp({super.key});
 
   @override
   State<MyApp> createState() => _MyAppState();
